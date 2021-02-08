@@ -1,0 +1,110 @@
+.search-container {
+  width: auto;
+}
+
+.search-content-container {
+  margin: 55px 100px 0px 90px;
+  height: 270px;
+  background: #E6F7FF;
+  border-radius: 16px;
+  border: 1px solid white;
+}
+
+
+h1 {
+  padding-left: 95px;
+  margin-top: 65px;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 46px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #262626;
+}
+
+.search-form {
+  display: block;
+  margin-left: 95px;
+}
+
+.search-form input {
+  background: #FFFFFF;
+  width: 675px;
+  height: 40px;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.search-btn-form {
+  margin-top: 33px;
+}
+
+.search-btn-form button {
+  background-color: #1890FF;
+  border-radius: 4px;
+  border:  1px solid #FFFFFF;
+  width: 101px;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-perfil {
+  margin: 55px 100px 0px 90px;
+  height: 387px;
+  background: #F5F5F5;
+  border-radius: 8px;
+  display: flex;
+}
+
+.search-img {
+  width: 285px;
+  height: 280px;
+  margin: 23px 45px 0px 30px;
+}
+
+.search-form-repository input {
+  margin-left: 10px;
+  margin-right: 8px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.search-data-user {
+  width: 80%;
+  height: 280px; 
+  margin-top: 23px;    
+}
+
+h3 {
+  padding-left: 15px;
+  color: #1890FF;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search-form-user {
+  padding-left: 15px;
+}
+
+.search-form-user input {
+  margin-top: 5px;
+  background: #FFFFFF;
+  width: 870px;
+  height: 40px;
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #737373;
+}
+
+
+
+
+

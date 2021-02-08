@@ -6,6 +6,8 @@
 }
 
 .home-content {
+  display: flex;
+  align-content: flex-start;
   font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -14,7 +16,12 @@
   color: #062847;
   }
 
-  .home-text {
+.home-content h1 {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+.home-text {
   font-weight: normal;
   font-size: 20px;
   line-height: 36px;
@@ -27,13 +34,14 @@
   width: 101px;
   height: 40px;
   margin-top: 48px;
+  border: 1px solid #fff;
 }
 
 .home-btn a {
   color: #fff;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 24px;
 }
 
