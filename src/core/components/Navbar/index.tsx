@@ -3,7 +3,7 @@ import './styles.css';
 
 const Navbar = () => (
   <nav className="row main-nav">
-    <div className="nav-logo">
+    <div className="col-2 nav-logo">
       <a href="/">
         <h4>Bootcamp DevSuperior</h4>
       </a>

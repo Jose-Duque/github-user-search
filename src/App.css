@@ -1,10 +1,9 @@
 body {
   background: #E5E5E5;
+  margin: 0;
 }
 
 .card-base {
   background: linear-gradient(180deg, #FFFFFF 0%, #F7F9FA 100%);
 }
- * {
-   margin: 0;
- }
+
