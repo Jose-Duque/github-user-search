@@ -8,4 +8,6 @@ export type User = {
   followers: number;
   following: number;
   created_at: string;
+  url: string
+  login: string
 }

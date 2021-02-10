@@ -11,7 +11,7 @@ const Router = () => (
       <Route path="/" exact> 
         <Home/>
       </Route>
-      <Route path="/search" exact> 
+      <Route path="/search" > 
         <Search/>
       </Route>
     </Switch>
