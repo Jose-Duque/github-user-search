@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import dayjs, {} from 'dayjs';
 import './styles.css';
 import makeRequest from '../../core/utils/request';
 import { User } from '../../core/types/User';
@@ -16,8 +17,9 @@ const Search = () => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    console.log(dayjs())
   }
-
+  let date = dayjs(userResponse?.created_at).format('DD/MM/YYYY');
   useEffect(() => {
     setIsLoader(true);
     makeRequest({url: `${userUrl}`})
@@ -70,11 +72,10 @@ const Search = () => {
                       <div>Empresa: {userResponse?.name}</div><br/>
                       <div>Website/Blog:{userResponse?.blog}</div><br/>
                       <div>Localidade: {userResponse?.location}</div><br/>
-                      <div>Membro desde: {userResponse.created_at}</div>
+                      <div>Membro desde: {date}</div>
                     </div>
                   </div>
                 </div>
-
               }          
             </>
           )}
@@ -84,6 +85,7 @@ const Search = () => {
 }
 
 export default Search;
+
         
           
          
